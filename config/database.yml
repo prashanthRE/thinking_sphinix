@@ -1,9 +1,17 @@
+
+
 development:
   adapter: mysql2
   encoding: utf8
-  database: thinking_spinix
+  pool: 5
+  database: thinking_spinix_development
   username: root
   password: nimbu
+  
 
 
-
+production:
+  adapter: postgresql
+  database: thinking_spinix_production
+  pool: 5
+  timeout: 5000
