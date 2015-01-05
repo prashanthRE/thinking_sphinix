@@ -1,0 +1,9 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: thinking_spinix
+  username: root
+  password: nimbu
+
+
+
